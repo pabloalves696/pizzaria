@@ -217,44 +217,45 @@ vertical-align: top;
   
 }
 @media (min-width: 1025px) {
-.cabecalho {
-  height: 30rem;
-}
-.titulo {
-  font-size: 4rem;
-}
-.container-sobre {
-  display: flex;
-  justify-content: space-around;
-}
-.container-menu-pizza {
-  display: flex;
-  justify-content: space-around;
-}
-.depoimentos {
-  display: flex;
-  justify-content: space-around;
-}
-.container-contato {
-  display: block;
-}
-.rodape {
-  display: block;
-  justify-content: space-around;
-}
-.sobre-textos p, .form {
-  width: 30rem;
-}
-.depoimento {
-  width: 20rem;
-}
-.icon-email {
-  display: inline-block;
-  font-size: 3rem;
-  color:#558c03
-}
-.rodape {
-  align-items: center;
-font-size: 1rem;
-}
+    .cabecalho {
+      height: 30rem;
+    }
+    .titulo {
+      font-size: 4rem;
+    }
+    .container-sobre {
+      display: flex;
+      justify-content: space-around;
+    }
+    .container-menu-pizza {
+      display: flex;
+      justify-content: space-around;
+    }
+    .depoimentos {
+      display: flex;
+      justify-content: space-around;
+    }
+    .container-contato {
+      display: block;
+    }
+    .rodape {
+      display: block;
+      justify-content: space-around;
+    }
+    .sobre-textos p, .form {
+      width: 30rem;
+    }
+    .depoimento {
+      width: 20rem;
+    }
+    .icon-email {
+      display: inline-block;
+      font-size: 3rem;
+      color:#558c03
+    }
+    .rodape {
+    align-items: center;
+    font-size: 1rem;
+    }
+
 }
