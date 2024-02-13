@@ -140,7 +140,7 @@
 }
 .form input {
   display: block;
-  width: 31%;
+  width: 60%;
   height: 10px;
   padding: 15px 0 15px 8px;
   outline: none;
@@ -152,7 +152,7 @@
 }
 .form textarea {
   display: block;
-  width: 30%;
+  width: %;
   height: 80px;
   padding: 8px;
   border: none;
@@ -217,11 +217,18 @@ vertical-align: top;
   
 }
 @media (min-width: 1025px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
     .cabecalho {
       height: 30rem;
     }
     .titulo {
       font-size: 4rem;
+    }
+    .container-menu {
+      width: 95%;
     }
     .container-sobre {
       display: flex;
@@ -229,7 +236,9 @@ vertical-align: top;
     }
     .container-menu-pizza {
       display: flex;
+      width: 95%;
       justify-content: space-around;
+
     }
     .depoimentos {
       display: flex;
